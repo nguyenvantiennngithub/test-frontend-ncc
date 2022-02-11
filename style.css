@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+}
+.html {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+}
+.app-left {
+  background-color: #191718;
+  width: 10%;
+  height: 100vh;
+}
+.app-left-list-item {
+  width: 150px;
+  height: 44px;
+  color: #aaa;
+  font-size: 16px;
+  border-bottom: 1px solid #5c5c5c;
+  width: 100%;
+}
+
+.app-left-list-item-text {
+  padding: 14px 0 0 16px;
+  display: block;
+}
+
+.app-left-list-item.bold {
+  color: #fff;
+  font-weight: bold;
+}
+
+.app-right {
+  width: 90%;
+}
+.app-right-image {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app-right-image-logo {
+  width: 310px;
+  height: 122px;
+}
+
+.app-right-middle {
+  display: flex;
+  justify-content: center;
+  background-color: #efefef;
+  flex-direction: column;
+  padding-bottom: 32px;
+  margin: 32px 10% 16px 10%;
+}
+.app-right-middle-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.app-right-middle-text {
+  text-align: center;
+  font-size: 16px;
+  margin: 0 10%;
+}
+
+.app-right-three {
+  display: flex;
+  margin: 32px 10% 0 10%;
+}
+.app-right-three-container {
+  margin: 0 16px;
+}
+
+.app-right-three-title {
+  font-size: 24px;
+  margin: 12px 0;
+}
+
+.app-right-three-top {
+  display: flex;
+}
+
+.app-right-three-top-left-img {
+  height: 128px;
+  width: 128px;
+}
+
+.app-right-three-top-right {
+  font-size: 16px;
+}
+
+.app-right-footer {
+  height: 80px;
+  margin: 0 10%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.app-right-footer-text {
+  color: #3e3e3e;
+}
